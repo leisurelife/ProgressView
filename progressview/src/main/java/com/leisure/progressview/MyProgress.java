@@ -41,7 +41,7 @@ public class MyProgress extends View {
         res_bg= typedArray.getResourceId(R.styleable.MyProgress_bg_drawable,0);
         //进度图片
         res_progress=typedArray.getResourceId(R.styleable.MyProgress_progress_drawable,0);
-        /方向
+        //方向
         orientation=typedArray.getInteger(R.styleable.MyProgress_orientation, 0);
         //最大进度
         max=typedArray.getInteger(R.styleable.MyProgress_max_progress,100);
